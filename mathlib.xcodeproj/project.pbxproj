@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AFD54551A4254AA0023450B /* mathlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8AFD54541A4254AA0023450B /* mathlib.h */; };
+		8AFD54571A4254AA0023450B /* mathlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD54561A4254AA0023450B /* mathlib.m */; };
+		8AFD545D1A4254AA0023450B /* libmathlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFD54511A4254AA0023450B /* libmathlib.a */; };
+		8AFD546C1A4258B30023450B /* mathlibTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD546B1A4258B30023450B /* mathlibTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFD545E1A4254AA0023450B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFD54491A4254AA0023450B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFD54501A4254AA0023450B;
+			remoteInfo = mathlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AFD544F1A4254AA0023450B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8AFD54551A4254AA0023450B /* mathlib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8AFD54511A4254AA0023450B /* libmathlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmathlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFD54541A4254AA0023450B /* mathlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mathlib.h; sourceTree = "<group>"; };
+		8AFD54561A4254AA0023450B /* mathlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mathlib.m; sourceTree = "<group>"; };
+		8AFD545C1A4254AA0023450B /* mathlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFD54621A4254AA0023450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFD546B1A4258B30023450B /* mathlibTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mathlibTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AFD544E1A4254AA0023450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFD54591A4254AA0023450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD545D1A4254AA0023450B /* libmathlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AFD54481A4254AA0023450B = {
+			isa = PBXGroup;
+			children = (
+				8AFD54531A4254AA0023450B /* mathlib */,
+				8AFD54601A4254AA0023450B /* mathlibTests */,
+				8AFD54521A4254AA0023450B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFD54521A4254AA0023450B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD54511A4254AA0023450B /* libmathlib.a */,
+				8AFD545C1A4254AA0023450B /* mathlibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFD54531A4254AA0023450B /* mathlib */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD54541A4254AA0023450B /* mathlib.h */,
+				8AFD54561A4254AA0023450B /* mathlib.m */,
+			);
+			path = mathlib;
+			sourceTree = "<group>";
+		};
+		8AFD54601A4254AA0023450B /* mathlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD54611A4254AA0023450B /* Supporting Files */,
+				8AFD546B1A4258B30023450B /* mathlibTest.m */,
+			);
+			path = mathlibTests;
+			sourceTree = "<group>";
+		};
+		8AFD54611A4254AA0023450B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD54621A4254AA0023450B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AFD54501A4254AA0023450B /* mathlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFD54651A4254AA0023450B /* Build configuration list for PBXNativeTarget "mathlib" */;
+			buildPhases = (
+				8AFD544D1A4254AA0023450B /* Sources */,
+				8AFD544E1A4254AA0023450B /* Frameworks */,
+				8AFD544F1A4254AA0023450B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mathlib;
+			productName = mathlib;
+			productReference = 8AFD54511A4254AA0023450B /* libmathlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8AFD545B1A4254AA0023450B /* mathlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFD54681A4254AA0023450B /* Build configuration list for PBXNativeTarget "mathlibTests" */;
+			buildPhases = (
+				8AFD54581A4254AA0023450B /* Sources */,
+				8AFD54591A4254AA0023450B /* Frameworks */,
+				8AFD545A1A4254AA0023450B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFD545F1A4254AA0023450B /* PBXTargetDependency */,
+			);
+			name = mathlibTests;
+			productName = mathlibTests;
+			productReference = 8AFD545C1A4254AA0023450B /* mathlibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AFD54491A4254AA0023450B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nero;
+				TargetAttributes = {
+					8AFD54501A4254AA0023450B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8AFD545B1A4254AA0023450B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AFD544C1A4254AA0023450B /* Build configuration list for PBXProject "mathlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AFD54481A4254AA0023450B;
+			productRefGroup = 8AFD54521A4254AA0023450B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFD54501A4254AA0023450B /* mathlib */,
+				8AFD545B1A4254AA0023450B /* mathlibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AFD545A1A4254AA0023450B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AFD544D1A4254AA0023450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD54571A4254AA0023450B /* mathlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFD54581A4254AA0023450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFD546C1A4258B30023450B /* mathlibTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFD545F1A4254AA0023450B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFD54501A4254AA0023450B /* mathlib */;
+			targetProxy = 8AFD545E1A4254AA0023450B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8AFD54631A4254AA0023450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AFD54641A4254AA0023450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFD54661A4254AA0023450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8AFD54671A4254AA0023450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8AFD54691A4254AA0023450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mathlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AFD546A1A4254AA0023450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mathlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AFD544C1A4254AA0023450B /* Build configuration list for PBXProject "mathlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFD54631A4254AA0023450B /* Debug */,
+				8AFD54641A4254AA0023450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFD54651A4254AA0023450B /* Build configuration list for PBXNativeTarget "mathlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFD54661A4254AA0023450B /* Debug */,
+				8AFD54671A4254AA0023450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AFD54681A4254AA0023450B /* Build configuration list for PBXNativeTarget "mathlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFD54691A4254AA0023450B /* Debug */,
+				8AFD546A1A4254AA0023450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AFD54491A4254AA0023450B /* Project object */;
+}
